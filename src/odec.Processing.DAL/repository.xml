@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="PaymentMethodRepository" name="PaymentMethodRepository"
+      type="odec.Processing.DAL.PaymentMethodRepository, odec.Processing.DAL">
+  </object>
+  <object id="DeliveryMethodRepository" name="DeliveryMethodRepository"
+      type="odec.Processing.DAL.DeliveryMethodRepository, odec.Processing.DAL">
+  </object>
+  <object id="OrderProcessing" name="OrderProcessing"
+      type="odec.Processing.DAL.OrderProcessing, odec.Processing.DAL">
+  </object>
+  <object id="OrderRepository" name="OrderRepository"
+     type="odec.Processing.DAL.OrderRepository, odec.Processing.DAL">
+  </object>
+  <object id="CardProcessing" name="CardProcessing"
+     type="odec.Processing.DAL.CardProcessing, odec.Processing.DAL">
+  </object>
+  <object id="OrderDetailsRepository" name="OrderDetailsRepository"
+     type="odec.Processing.DAL.OrderDetailsRepository, odec.Processing.DAL">
+  </object>
+  <object id="SystemMoneyProcessing" name="SystemMoneyProcessing"
+     type="odec.Processing.DAL.SystemMoneyProcessing, odec.Processing.DAL">
+  </object>
+  <object id="DeliveryZoneRepository" name="DeliveryZoneRepository"
+     type="odec.Processing.DAL.DeliveryZoneRepository, odec.Processing.DAL">
+  </object>
+  <object id="WithdrawalProcessing" name="WithdrawalProcessing"
+     type="odec.Processing.DAL.WithdrawalProcessing, odec.Processing.DAL">
+  </object>
+</objects>
