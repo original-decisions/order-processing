@@ -213,7 +213,6 @@ namespace Processing.Tests.Money
             }
         }
 
-#if NETCOREAPP1_0
         [Test]
         public void TransferMoney()
         {
@@ -245,7 +244,7 @@ namespace Processing.Tests.Money
             }
 
         }
-#endif
+
         [Test]
         public void TransferBlockedMoney()
         {
