@@ -5,6 +5,9 @@ resources:
       name: original-decisions/ci-cd
       endpoint: original-decisions
 
+trigger: 
+- master
+
 pr:
 - master/src
 - master/tests
