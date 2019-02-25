@@ -36,7 +36,7 @@ namespace Processing.Tests
             // Create a new options instance telling the context to use an
             // InMemory database and the new service provider.
             var builder = new DbContextOptionsBuilder<TDbContext>();
-            builder.UseInMemoryDatabase()
+            builder.UseInMemoryDatabase(Guid.NewGuid().ToString())
                    .UseInternalServiceProvider(serviceProvider);
             return builder.Options;
         }
